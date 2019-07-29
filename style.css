@@ -1,0 +1,308 @@
+
+/* This is all bout the navigation menu/tabs - Start */
+.brand {
+  background-color: #F67280;
+  font-family: 'Astloch', cursive;
+  /* For the Girls+Gaming */
+}
+
+.logo {
+  width:34px;
+  height:34px;
+}
+
+.footerlogo {
+  width:80px;
+  height:80px;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.topnav-right {
+  float: right;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #F67280;}
+
+ul.topnav li.right {float: right;}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+  /* This is for the Tabs - End */
+
+body {
+  background-color: #F8B195;
+  height: 100%;
+  margin: 0;
+}
+
+.teamtable {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.column {
+  width: 20%;
+}
+
+h1 {
+  font-family: 'Almendra Display', cursive;
+  text-align: center;
+  font-size: 100px;
+  color: #C06C84;
+}
+
+.bigger {
+  font-family: 'Almendra Display', cursive;
+  text-align: center;
+  font-size: 100px;
+  /* For the 'h1' fonts */
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.team {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+}
+
+.titles {
+  font-size: 50px;
+  color: #F67280;
+  /* For 'h3' Titles */
+}
+
+th {
+  font-size: 50px;
+  color: #F67280;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.weare {
+  margin-left: 120px;
+  margin-bottom: 60px;
+  width:450px;
+  height:450px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: 'A', serif;
+}
+
+.text {
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* For the 'p' fonts */
+}
+
+.teamcaption {
+  font-size: 27px;
+  text-align: center;
+}
+
+td {
+  font-family: 'A', serif;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.titleslide {
+  font-size: 45px;
+  color: #C06C84;
+  text-shadow:
+        0.07em 0 white,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+  /* For the 'h3' fonts in the slideshow */
+
+.textslide {
+  color: white;
+  font-size: 25px;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+  /* For the 'p' fonts */
+
+.blackfont {
+  color: black;
+}
+
+.whitefont {
+  color: white;
+}
+
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #C06C84;
+   color: white;
+   text-align: center;
+}
+
+.carousel-item {
+  height: 92vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* This is for the slideshow */
+}
+
+/* Contact Form Start */
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Sniglet', cursive;
+}
+
+h6{
+	font-weight: normal;
+	font-size: 30em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: #F90;
+	text-align: center;
+
+}
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+.fish{
+	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
+	width: 235px;
+	height: 104px;
+	margin-left: -235px;
+	position: absolute;
+	animation: myfirst 24s;
+	-webkit-animation: myfirst 24s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+#fish{
+	top: 120px;
+}
+
+#fish2{
+	top: 260px;
+	animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+}
+
+
+header{
+	height: 160px;
+	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+}
+
+#form{
+	height: 100%;
+	background-color: #98d4f3;
+	overflow: hidden;
+	position: relative;
+
+}
+form{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	color: white;
+	position: relative;
+}
+
+/* Contact Form End */
+
+#F8B195
+#F67280
+#C06C84
+#6C5B7B
+#355C7D
+
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Almendra Display', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Waiting for the Sunrise', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Over the Rainbow', cursive;
+font-family: 'Astloch', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Kaushan Script', cursive;
