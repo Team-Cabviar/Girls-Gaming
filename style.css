@@ -133,6 +133,12 @@ p {
   /* For the 'p' fonts */
 }
 
+.centext {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'A', serif;
+}
+
 .teamcaption {
   font-size: 27px;
   text-align: center;
